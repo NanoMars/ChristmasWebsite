@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Snowflake Effect</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+        canvas {
+            display: block;
+        }
+        #githubButton {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            padding: 8px 16px;
+            border: 2px solid white;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            border-radius: 50px;
+            background: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+#githubButton:hover {
+    background-color: white;
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <canvas id="snowCanvas"></canvas>
+    <script src="script.js"></script>
+    <a href="https://github.com/nanomars" target="_blank" id="githubButton">My GitHub</a>
+</body>
+</html>
